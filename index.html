@@ -9,18 +9,21 @@
   </head>
   <body>
     <div class="container">
-      <h3>Enter for dinos!</h3>
-      <form class="" action="index.html" method="post">
-        <label for="words">How many words?</label>
+      <h3>Find dinos!</h3>
+      <form id="dinos">
+        <label for="words">How many dinos?</label>
         <input id="words" type="number">
         <br>
-        <label for="paragraphs">How many paragraphs?</label>
+        <label for="paragraphs">How many paragraphs of dinos?</label>
         <input id="paragraphs" type="number">
         <br>
-        <button id="getDino" class="btn btn-danger">Get Dino!</button>
+        <button id="getDino" class="btn btn-danger">Get Dinos!</button>
+      </form>
     </div>
-    <div class="putDino"></div>
-    </form>
-
+    <br>
+    <div class="container">
+      <h3>Here are your dinos!</h3>
+      <div id="putDino"></div>
+    </div>
   </body>
 </html>
